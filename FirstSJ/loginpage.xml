@@ -14,6 +14,7 @@
 			  </methods>
 		 </class>
 -->
+<!-- This is new text -->
 	 </classes>
   </test> <!-- loginPage -->
 </suite> <!-- patientLogin -->
