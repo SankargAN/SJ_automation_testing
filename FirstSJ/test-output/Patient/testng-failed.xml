@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [patient]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="landingpage(failed)">
+    <classes>
+      <class name="TestCases_Landingpage.addrow">
+        <methods>
+          <include name="lp_edit"/>
+          <include name="browserInstalation"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- TestCases_Landingpage.addrow -->
+    </classes>
+  </test> <!-- landingpage(failed) -->
+</suite> <!-- Failed suite [patient] -->

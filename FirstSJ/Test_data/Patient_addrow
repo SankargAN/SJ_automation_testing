@@ -1,0 +1,14 @@
+patient_admin_crocode=ACRO_003
+patient_admin_croname=Acroo
+patient_admin_phone=0123456789
+patient_admin_email=Acro1@gmail.com
+patient_admin_add1=Hyd
+patient_admin_add2=Hyd
+patient_admin_add3=Hyd
+patient_admin_add4=Hyd
+patient_admin_country_dropdown=India
+patient_admin_state_dropdown=Goa
+patient_admin_city_dropdown=Baga
+patient_admin_pincode=7890987
+crocode_error_message=CRO Code is required
+edit_croName=Abc123

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="patient">
+	<test thread-count="5" name="landingpage">
+
+		<classes>
+			<class name="TestCases_Login.loginPage">
+				<methods>
+					<include name="login" />
+				</methods>
+			</class>
+			<class name="TestCases_Landingpage.addrow">
+					<methods>
+						<include name="landingpage_view"/>
+					</methods>
+				</class>
+
+			<class name="TestCases_Landingpage.addrow">
+				<methods>
+					<include name="lp_edit"/>
+				</methods>
+			</class>
+			
+			<class name="TestCases_Landingpage.addrow">
+				<methods>
+					<include name="lp_actdev_btn"/>
+				</methods>
+			</class>
+			<!-- 
+			<class name="TestCases_Login.loginPage">
+				<methods>
+					<include name="logout" />
+				</methods>
+			</class> 
+		-->
+		</classes>
+	</test> <!--
+	landingpage -->
+</suite> <!--
+patient -->
