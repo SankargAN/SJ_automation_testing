@@ -5,6 +5,7 @@
     <classes>
       <class name="TestCases_Landingpage.addrow">
         <methods>
+          <include name="lp_actdev_btn"/>
           <include name="lp_edit"/>
           <include name="browserInstalation"/>
           <include name="closebrowser"/>
